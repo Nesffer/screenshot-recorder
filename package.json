@@ -1,0 +1,34 @@
+{
+  "name": "screenshot-recorder",
+  "version": "1.0.0",
+  "description": "Screenshot Recorder",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "mocha -r ts-node/register ./**/*.spec.ts",
+    "compile": "tsc"
+  },
+  "author": "Nesffer <nesffer.jimin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-cron": "^2.0.3",
+    "screenshot-desktop": "^1.10.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.12",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
